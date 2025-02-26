@@ -4,7 +4,7 @@ import { Link } from 'expo-router';
 export default function ProfileScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Profile screen 2</Text>
+      <Text style={styles.text}>Profile screen</Text>
     </View>
   );
 }

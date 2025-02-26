@@ -5,7 +5,7 @@ export default function TabLayout() {
     return (
         <Tabs
             screenOptions={{
-                tabBarActiveTintColor: '#ffd33d',
+                tabBarActiveTintColor: '#ff3300',
                 headerStyle: {
                     backgroundColor: '#25292e',
                 },
@@ -17,22 +17,22 @@ export default function TabLayout() {
             }}
         >
             <Tabs.Screen
-                name="notes"
-                options={{
-                    title: 'Notes',
-                    headerShown: false,
-                    tabBarIcon: ({ color, focused }) => (
-                        <Ionicons name={focused ? 'document-text' : 'document-text-outline'} color={color} size={24} />
-                    ),
-                }}
-            />
-            <Tabs.Screen
                 name="profile"
                 options={{
                     title: 'Profile',
                     headerShown: false,
                     tabBarIcon: ({ color, focused }) => (
                         <Ionicons name={focused ? 'person' : 'person-outline'} color={color} size={24} />
+                    ),
+                }}
+            />
+            <Tabs.Screen
+                name="notes"
+                options={{
+                    title: 'Notes',
+                    headerShown: false,
+                    tabBarIcon: ({ color, focused }) => (
+                        <Ionicons name={focused ? 'document-text' : 'document-text-outline'} color={color} size={24} />
                     ),
                 }}
             />

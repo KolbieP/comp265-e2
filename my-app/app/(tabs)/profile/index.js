@@ -5,10 +5,10 @@ export default function ProfileScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Profile screen</Text>
-      <Link href="/profile/profile" style={styles.button}>
+      <Link href="/profile/profile/" style={styles.button}>
         Go to Profile screen
       </Link>
-      <Link href="/profile/settings" style={styles.button}>
+      <Link href="/profile/settings/" style={styles.button}>
         Go to Settings Screen
       </Link>
     </View>
